@@ -1,0 +1,9 @@
+# SELECT QUERY
+  
+  select * from customers  : used to fetch all records from customer table with all column names.
+  select first_name,last_name from customer : used to fetch all records from customer table with only two columns first_name and last_name.
+  select first_name,last_name,(balance + 10) * 100 AS 'remaining ballance'  from customer : used to fetch all records from customer table with three column names first_name,last_name and remaining balance as ALIASE after operation perform on it.
+  select * from customer where birth_date > 'YYYY-MM-DD' : used to fetch all records which people birthdate are greater than given date values.
+           
+           Note : Date is not string values but it can be in double quots . 
+                  Convention date should be in quots.
