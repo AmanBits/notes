@@ -7,3 +7,8 @@
            
            Note : Date is not string values but it can be in double quots . 
                   Convention date should be in quots.
+
+# select statements with conditions
+   
+   select * from orders where date>'YYYY-MM-DD';
+  

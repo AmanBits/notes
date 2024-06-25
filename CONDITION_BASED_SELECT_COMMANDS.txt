@@ -1,0 +1,7 @@
+# WHERE Clause
+  
+  select * from customer where balance > 1000 : It is used to fetch all records from customer table which have balance greater than 1000
+  select * from orders where date > '2023-01-01' : It is used to fetch all records from orders table which order date are greater than 2023-01-01.
+
+
+  
